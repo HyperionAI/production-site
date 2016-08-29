@@ -18,7 +18,7 @@
     border: 40px solid white
   }
   }
-  @media (max-width: 600px) {
+  @media (max-width: 670px) {
   .frame {
     border: 10px solid white
     /*position: sticky;*/
@@ -47,7 +47,7 @@
   }
   }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   #frame-header {
     height: 40px;
     padding: 10px
@@ -66,7 +66,7 @@
   pointer-events: all
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .frame-header-link {
     margin-right: 25px;
     margin-left: 25px
@@ -155,7 +155,7 @@
   width: 125px
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   #logo {
     width: 100px;
   }
@@ -182,7 +182,7 @@
   margin-top: -230px
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .logoWrapper {
     margin-top: -150px;
   }
@@ -243,7 +243,7 @@
   /* gradient taken from: http://www.cssmatic.com/gradient-generator#'\-moz\-linear\-gradient\%28left\%2C\%20rgba\%28165\%2C80\%2C194\%2C1\%29\%200\%25\%2C\%20rgba\%28165\%2C80\%2C194\%2C1\%29\%2026\%25\%2C\%20rgba\%28230\%2C176\%2C39\%2C1\%29\%20100\%25\%29\%3B' */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .fadeContent h1 {
     padding: 0 25px;
     font-size: 18px;
@@ -277,7 +277,7 @@
   margin: 25px auto 0 auto
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .fadeContent p {
     padding: 0 30px;
     font-size: 12px;
@@ -293,7 +293,7 @@
   text-align: center;
   width: 100%
 }
-  @media (max-width: 600px) {
+  @media (max-width: 670px) {
   .content {
     top: calc(50vh - 85px);
     bottom: auto;
@@ -346,7 +346,7 @@
   padding-top: 10vh
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .nnOffset {
     padding-top: 20vh
   }
@@ -418,7 +418,7 @@
   }
   }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .content .description {
     font-size: 13px
   }
@@ -448,7 +448,7 @@
 #ingredientsContainer .content {
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   #ingredientsContainer .content {
     width: 100% /*left: -2%;*/
   }
@@ -461,7 +461,7 @@
   transition: all 0.5s ease-out
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .content .subheader {
     font-size: 18px
   }
@@ -480,7 +480,7 @@
   }
   }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   #ingredientsContainer .content .subheader {
     font-size: 18px
   }
@@ -502,7 +502,7 @@
   }
   }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .content .divider {
     height: 3px
   }
@@ -512,7 +512,7 @@
   width: 40px
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .content .divider.widen {
     width: 30px
   }
@@ -535,7 +535,7 @@
     left: 40px
   }
   }
-  @media (max-width: 600px) {
+  @media (max-width: 670px) {
   .footer {
     width: calc(100% - 20px);
     left: 10px;
@@ -612,7 +612,7 @@
 
 .formEmail {
   height: 35px;
-  font-size: 16px;
+  font-size: 15px;
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
@@ -623,6 +623,10 @@
   width: calc(100% - 225px);
   overflow: visible;
   margin: 0;
+  border-right: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .formBtn {
@@ -634,14 +638,14 @@
   padding-left: 10px;
   padding-right: 10px;
   height: 35px;
-  font-size: 16px;
+  font-size: 15px;
   background-color: transparent;
   border: 1px solid #fff;
   box-sizing: content-box;
   -webkit-appearance: button;
   cursor: pointer;
   overflow: visible;
-  margin: 0 0 0 -3px;
+  margin: 0 0 0 -6px;
 }
 .gray-bg {
   background-color: rgba(236, 237, 241, 1);
@@ -650,6 +654,9 @@
 body {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   margin: 0;
+  -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
 }
 
 .fancybox-lock {
@@ -688,7 +695,7 @@ body {
   margin-top: 900px
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
 
   .sep {
     margin-top: 750px;
@@ -778,7 +785,7 @@ body {
   }
   }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
 
   .icon-block-img {
     height: 120px;
@@ -855,7 +862,7 @@ body {
   }
   }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
 
   .apple-watch {
     width: 175px;
@@ -892,7 +899,7 @@ body {
   }
   }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
 
   .iphone {
     width: 150px;
@@ -995,7 +1002,7 @@ body {
   }
   }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
 
   .fitbit {
     left: 0;
@@ -1128,7 +1135,7 @@ body {
   }
   }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
 
   .pill-far-middle {
     left: 80px;
@@ -1373,7 +1380,7 @@ body {
 @media (max-width: 860px) {
 
   .animating-phones {
-    width: 85%;
+    width: 100%;
     top: 100px;
   }
   }
@@ -1399,7 +1406,7 @@ body {
   max-width: 800px
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
 
   .app-description {
     padding: 20px;
@@ -1427,11 +1434,16 @@ body {
   padding: 0 8px;
   outline: none;
   overflow: visible;
+  border-right: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .app-btn {
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 0;
   padding-top: 0;
   padding-bottom: 0;
   font-weight: 300;
@@ -1440,7 +1452,7 @@ body {
   border: 1px solid black;
   background-color: transparent;
   box-sizing: content-box;
-  margin-left: -4px;
+  margin-left: -6px;
 }
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
