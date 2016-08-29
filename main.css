@@ -809,7 +809,9 @@ body {
 .icon-block-description {
   color: white;
   font-size: 18px;
-  margin-top: 40px
+  margin-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px
 }
 
 @media (max-width: 1200px) {
@@ -825,6 +827,8 @@ body {
   .icon-block-description {
     margin-top: 25px;
     font-size: 14px;
+    padding: 0;
+    padding: initial;
   }
   }
 
@@ -833,6 +837,8 @@ body {
   .icon-block-description {
     margin-top: 20px;
     font-size: 13px;
+    padding: 0;
+    padding: initial;
   }
   }
 
