@@ -610,6 +610,13 @@
   color: white;
 }
 
+.signupContainer {
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 500px;
+}
+
 .formEmail {
   height: 35px;
   font-size: 15px;
