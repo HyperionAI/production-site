@@ -1,0 +1,53 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/alex/.nvm/versions/node/v5.8.0/bin/node',
+1 verbose cli   '/home/alex/.nvm/versions/node/v5.8.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'publish' ]
+2 info using npm@3.7.3
+3 info using node@v5.8.0
+4 verbose run-script [ 'prepublish', 'publish', 'postpublish' ]
+5 info lifecycle boilerplate@1.0.0~prepublish: boilerplate@1.0.0
+6 verbose lifecycle boilerplate@1.0.0~prepublish: unsafe-perm in lifecycle true
+7 verbose lifecycle boilerplate@1.0.0~prepublish: PATH: /home/alex/.nvm/versions/node/v5.8.0/lib/node_modules/npm/bin/node-gyp-bin:/home/alex/Documents/Hyperion/landing/node_modules/.bin:/home/alex/.nvm/versions/node/v5.8.0/bin:/home/alex/bin:/home/alex/.nvm/versions/node/v5.8.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+8 verbose lifecycle boilerplate@1.0.0~prepublish: CWD: /home/alex/Documents/Hyperion/landing
+9 silly lifecycle boilerplate@1.0.0~prepublish: Args: [ '-c', 'npm run build' ]
+10 silly lifecycle boilerplate@1.0.0~prepublish: Returned: code: 0  signal: null
+11 info lifecycle boilerplate@1.0.0~publish: boilerplate@1.0.0
+12 verbose lifecycle boilerplate@1.0.0~publish: unsafe-perm in lifecycle true
+13 verbose lifecycle boilerplate@1.0.0~publish: PATH: /home/alex/.nvm/versions/node/v5.8.0/lib/node_modules/npm/bin/node-gyp-bin:/home/alex/Documents/Hyperion/landing/node_modules/.bin:/home/alex/.nvm/versions/node/v5.8.0/bin:/home/alex/bin:/home/alex/.nvm/versions/node/v5.8.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+14 verbose lifecycle boilerplate@1.0.0~publish: CWD: /home/alex/Documents/Hyperion/landing
+15 silly lifecycle boilerplate@1.0.0~publish: Args: [ '-c',
+15 silly lifecycle   'gh-pages --repo git@github.com:HyperionAI/production-site.git -d dist -b master' ]
+16 silly lifecycle boilerplate@1.0.0~publish: Returned: code: 1  signal: null
+17 info lifecycle boilerplate@1.0.0~publish: Failed to exec publish script
+18 verbose stack Error: boilerplate@1.0.0 publish: `gh-pages --repo git@github.com:HyperionAI/production-site.git -d dist -b master`
+18 verbose stack Exit status 1
+18 verbose stack     at EventEmitter.<anonymous> (/home/alex/.nvm/versions/node/v5.8.0/lib/node_modules/npm/lib/utils/lifecycle.js:239:16)
+18 verbose stack     at emitTwo (events.js:100:13)
+18 verbose stack     at EventEmitter.emit (events.js:185:7)
+18 verbose stack     at ChildProcess.<anonymous> (/home/alex/.nvm/versions/node/v5.8.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+18 verbose stack     at emitTwo (events.js:100:13)
+18 verbose stack     at ChildProcess.emit (events.js:185:7)
+18 verbose stack     at maybeClose (internal/child_process.js:850:16)
+18 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+19 verbose pkgid boilerplate@1.0.0
+20 verbose cwd /home/alex/Documents/Hyperion/landing/dist
+21 error Linux 4.4.0-34-generic
+22 error argv "/home/alex/.nvm/versions/node/v5.8.0/bin/node" "/home/alex/.nvm/versions/node/v5.8.0/bin/npm" "run" "publish"
+23 error node v5.8.0
+24 error npm  v3.7.3
+25 error code ELIFECYCLE
+26 error boilerplate@1.0.0 publish: `gh-pages --repo git@github.com:HyperionAI/production-site.git -d dist -b master`
+26 error Exit status 1
+27 error Failed at the boilerplate@1.0.0 publish script 'gh-pages --repo git@github.com:HyperionAI/production-site.git -d dist -b master'.
+27 error Make sure you have the latest version of node.js and npm installed.
+27 error If you do, this is most likely a problem with the boilerplate package,
+27 error not with npm itself.
+27 error Tell the author that this fails on your system:
+27 error     gh-pages --repo git@github.com:HyperionAI/production-site.git -d dist -b master
+27 error You can get information on how to open an issue for this project with:
+27 error     npm bugs boilerplate
+27 error Or if that isn't available, you can get their info via:
+27 error     npm owner ls boilerplate
+27 error There is likely additional logging output above.
+28 verbose exit [ 1, true ]
