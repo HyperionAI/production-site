@@ -341,7 +341,7 @@
   width: auto;
   height: auto;
   min-width: 100%;
-  min-height: 120%;
+  min-height: 195%;
   transform: translate3d(-50%, -40%, 0);
 }
 
@@ -1414,7 +1414,7 @@ body {
 }
 
 .app-description {
-  padding: 100px;
+  padding: 35px;
   margin-left: auto;
   margin-right: auto;
   max-width: 800px
@@ -1435,7 +1435,7 @@ body {
   }
 
 .app-description-text {
-  margin-bottom: 40px;
+  margin-bottom: 2styling0px;
   opacity: 0.7;
 }
 
